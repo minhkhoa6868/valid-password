@@ -1,14 +1,3 @@
-/*export default function showPass1(){
-    const pw1 = document.getElementById('pw1');
-    const checked = document.getElementById('check1');
-    if (checked.checked) {
-        pw1.type = 'text';
-    }
-    else if (!checked.checked) {
-        pw1.type = 'password';
-    }
-}*/
-
 export default function showPass1(){
     const pw1 = document.getElementById('pw1');
     const checked = document.getElementById('label1');
