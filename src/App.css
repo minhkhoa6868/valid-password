@@ -1,0 +1,57 @@
+#form{
+    width: 500px;
+    height: 300px;
+}
+
+#label-pw1{
+    transform: translateY(-120%);
+    z-index: 2;
+}
+
+#pw1::placeholder{
+    color: transparent;
+}
+
+#pw1:not(:placeholder-shown) ~ #label-pw1{
+    transform: translateY(-200%);
+    font-size: 14px;
+    font-weight: normal;
+}
+
+#pw1:focus ~ #label-pw1{
+    transform: translateY(-200%);
+    font-size: 14px;
+    color: black;
+    font-weight: normal;
+}
+
+#pw2::placeholder{
+    color: transparent;
+}
+
+#pw2:not(:placeholder-shown) ~ #label-pw2{
+    transform: translate(15px, -80%);
+    background-color: white;
+    padding: 0px 3px 0px 2px;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+#pw2:focus ~ #label-pw2{
+    transform: translate(15px, -80%);
+    background-color: white;
+    padding: 0px 3px 0px 2px;
+    font-size: 14px;
+    color: black;
+    font-weight: normal;
+}
+
+#div-check1{
+    left: 93%;
+    top: 40%;
+}
+
+#div-check2{
+    left: 93%;
+    top: 30%;
+}
